@@ -1,0 +1,24 @@
+.paymentDetails{
+    display: block;
+    width: 100%;
+    max-width: 100rem;
+    padding: 5px;
+    margin: 2rem auto;
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 20px;
+    
+
+    .FormInput{
+        border-radius: 2rem;
+        border: 1px solid grey;
+        max-width: 100rem;   
+    }
+    .Shipping{
+        margin: 0  0 2rem;
+        
+    }
+    h2{
+        margin: 3px;
+    }
+
+}

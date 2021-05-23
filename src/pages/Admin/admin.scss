@@ -1,0 +1,57 @@
+.admin {
+    padding: 0 10px;
+    width: 100%;
+  
+    .callToActions {
+      display: inline-block;
+      width: 100%;
+      padding: 0;
+      margin: 0 auto;
+  
+      ul, li {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+  
+      ul {
+        li {
+          display: inline-block;
+  
+        }
+      }
+  
+    }
+  }
+
+  .manageProducts {
+    h1{
+      margin-top: 15px;
+      
+    }
+      table.results{
+        
+        tr{
+
+          &:nth-child(even){
+            background-color: rgb(223, 223, 223);
+          }
+          &:nth-child(odd){
+            background-color: aliceblue;
+          
+          }
+
+          .thumb{
+            width: 15.0rem;
+            margin: 0 auto;
+          }
+          img{
+          
+            border-radius: 10px ;
+          }
+          td{
+            font-weight: 600;
+          }
+        }
+      }
+  }
